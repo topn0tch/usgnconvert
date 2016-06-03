@@ -20,3 +20,4 @@ Returns true if USGN is online, false otherwise.
 
 # Prerequisites
 * curl
+* wget (optional)
