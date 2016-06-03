@@ -15,3 +15,4 @@ convert.usgnstatus()
 ```
 Returns true if USGN is online, false otherwise.
 
+> Note: if the id or username does not exists, returns an empty value.
