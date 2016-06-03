@@ -1,5 +1,4 @@
-# USGN name/id converter
-ingame usgn to usgn name converter for CS2D
+# Functions
 
 ```lua
 convert.toName(usgn)
