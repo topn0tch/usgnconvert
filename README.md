@@ -17,3 +17,6 @@ Returns the USGN ID of the specified username.
 convert.usgnstatus()
 ```
 Returns true if USGN is online, false otherwise.
+
+# Prerequisites
+* curl
