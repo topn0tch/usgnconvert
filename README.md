@@ -1,22 +1,22 @@
 # Functions
 
+Get the username of a specified USGN ID (returns a number)
 ```lua
 convert.toName(usgn)
 ```
-Returns the username of the specified USGN ID.
 
-
+Get the USGN ID of a specified username (returns a string)
 ```lua
 convert.toUSGN(name)
-```
-Returns the USGN ID of the specified username. 
+``` 
+> Note: Returns an empty value if the specified username/id does not exist!
 
-> Note: if the id or username does not exists, returns an empty value.
 
+Get USGN server status (returns a boolean)
 ```lua
 convert.usgnstatus()
 ```
-Returns true if USGN is online, false otherwise.
+
 
 # Prerequisites
 * curl
